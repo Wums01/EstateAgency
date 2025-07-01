@@ -1,0 +1,195 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 80px;
+}
+    
+   /* .navbar-nav .nav-link:hover {
+      border-bottom: 2px solid green;
+    } */
+
+  .navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #316C40; /* Your green */
+  transition: width 0.3s;
+  margin-top: 4px;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+    
+  .carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    width: 80%;
+}
+
+.carousel-indicators button {
+  background-color: blue;
+}
+
+.carousel-indicators button {
+  width: 10px !important;
+}
+.carousel-indicators .active{
+  background-color: green;
+  width: 40px !important;
+  transition: 0.5s;
+}
+  .service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+  }
+
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(0, 128, 0, 0.15);
+  }
+
+  .service-icon {
+    background-color: #198754;
+    transition: background-color 0.3s ease;
+  }
+
+  .service-card:hover .service-icon {
+    background-color: #065f46 !important;
+  }
+
+  .agent-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.agent-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(0, 128, 0, 0.15);
+}
+
+.agent-card a i {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.agent-card a:hover i {
+  color: #198754;
+}
+
+/* Testimonials */
+ .testimonial-carousel .testimonial-item {
+    opacity: 0.5;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    transform: scale(0.95);
+  }
+
+  .testimonial-carousel .owl-item.active.center .testimonial-item {
+    opacity: 1;
+    transform: scale(1.02);
+    z-index: 2;
+  }
+
+  .stars i {
+    font-size: 1rem;
+    margin-right: 2px;
+  }
+
+  .testimonial-item .review {
+    min-height: 6em;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+/* Owl dots (indicators) */
+  .owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    margin: 5px 4px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background 0.3s ease;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span {
+    background: #316C40; /* green color for active */
+}
+
+
+.social-icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    color: #343a40;
+    background-color: #dee2e6;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .social-icon-wrapper:hover {
+    background-color: #198754;
+    color: white !important;
+  }
+
+  /* About Us page */
+
+   .hero {
+      background: url('images/about-banner.jpg') center center/cover no-repeat;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+    .team-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  
+
+    .social-icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    color: #343a40;
+    background-color: #dee2e6;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .social-icon-wrapper:hover {
+    background-color: #198754;
+    color: white !important;
+  }
+
+  /* service page */
+  .body-service { font-family: 'Montserrat', sans-serif; padding-top: 80px; }
+    .service-box { transition: transform 0.3s, box-shadow 0.3s; }
+    .service-box:hover { transform: translateY(-5px); box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); }
+
+    .icon-wrapper {
+      width: 60px; height: 60px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 15px auto;
+    }

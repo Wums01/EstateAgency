@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Property Renovation - Estate Agency</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .service-hero {
+      background: url('img/property-renovation-hero.jpg') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    .service-img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .social-icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    color: #343a40;
+    background-color: #dee2e6;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+
+  .social-icon-wrapper:hover {
+    background-color: #198754;
+    color: white !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light navbar-light bg-white shadow-sm fixed-top px-4 py-3">
+  <a class="navbar-brand fw-bold" href="index.html">
+    <i class="fas fa-home text-success"></i> <span class="text-success">Estate</span> Agency
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="agents.html">Agents</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="service-hero">
+  <h1 class="display-4">Property Renovation</h1>
+</div>
+
+<!-- Content Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="mb-4 text-success">Transforming Homes with Excellence</h2>
+    <p class="lead">Breathe new life into old or underperforming properties with our expert renovation services. Whether it's a simple refresh or a full-scale makeover, we ensure stunning, functional results tailored to your taste and investment goals.</p>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="img/property-renovation-1.jpg" alt="Home Renovation" class="service-img" />
+      </div>
+      <div class="col-md-6">
+        <h4>Our Renovation Services Include:</h4>
+        <ul class="list-unstyled mt-3">
+          <li><i class="fas fa-check-circle text-success me-2"></i>Interior and exterior redesign</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i>Electrical, plumbing, and structural upgrades</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i>Kitchen and bathroom remodeling</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i>Landscaping and curb appeal enhancements</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h4>Why Renovate With Us?</h4>
+        <p>We work with skilled architects, designers, and contractors to deliver renovations that increase property value, energy efficiency, and appeal—on time and within budget. Our team manages the entire process from design to final polish.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/property-renovation-2.jpg" alt="Renovated Interior" class="service-img" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-dark py-5" style="background-color: #f8f9fa;">
+  <div class="container">
+    <div class="row text-start text-md-left">
+      <div class="col-md-4 mb-4">
+        <h5><i class="bi bi-geo-alt-fill me-2 text-success"></i>Our Address</h5>
+        <p>123 Green Street, City, Country</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5><i class="bi bi-telephone-fill me-2 text-success"></i>Contact Us</h5>
+        <p>+123 456 7890<br>email@example.com</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5><i class="bi bi-clock-fill me-2 text-success"></i>Opening Hours</h5>
+        <p>Mon - Fri: 9am - 5pm<br>Sat: 10am - 3pm</p>
+      </div>
+    </div>
+
+    <!-- Centered Social Section -->
+    <div class="text-center mt-5">
+      <h5>Follow Us</h5>
+      <div class="d-flex justify-content-center mt-3 gap-3">
+        <a href="#" class="social-icon-wrapper"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="social-icon-wrapper"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="social-icon-wrapper"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="social-icon-wrapper"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+
+    <hr class="mt-5">
+
+    <p class="text-center mb-0">© 2025 Estate Agency. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+  .navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #316C40; /* Your green */
+  transition: width 0.3s;
+  margin-top: 4px;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
